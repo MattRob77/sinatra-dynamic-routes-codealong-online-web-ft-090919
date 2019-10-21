@@ -20,6 +20,6 @@ class App < Sinatra::Base
   end 
   
   get "/mulitply/:num1/:num2" do 
-    @answer = params[]
+    @answer = params[:num1]
 
 end
