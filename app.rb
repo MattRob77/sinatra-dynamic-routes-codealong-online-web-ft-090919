@@ -19,6 +19,6 @@ class App < Sinatra::Base
     "Goodbye, #{user_name}."
   end 
   
-  get /mulitply/:num1
+  get /mulitply/:num1/num2
 
 end
